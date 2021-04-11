@@ -1,6 +1,6 @@
 import threading
 
-class BakeryAlgorithm():
+class bakery_algorithm():
     
     #Ticket for threads in line, n - number of threads
     tickets = [0,1,2,3,4]
@@ -43,5 +43,5 @@ class BakeryAlgorithm():
         t5.start()
 
 if __name__ == "__main__":
-    b = BakeryAlgorithm()
+    b = bakery_algorithm()
     b.main()
