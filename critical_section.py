@@ -1,7 +1,7 @@
 import threading
 import time
 
-class CriticalSection():
+class critical_section():
     def __init__(self):
         self.sem = threading.Semaphore()
         
@@ -34,5 +34,5 @@ class CriticalSection():
         
 
 if __name__ == "__main__":
-    c = CriticalSection()
+    c = critical_section()
     c.main()
